@@ -1,5 +1,8 @@
-/HelperClass.h
-/HelperClass.cpp
+/cmake-build-debug
+HelperClass.h
+HelperClass.cpp
+.idea
+.gitattributes
 
 # Prerequisites
 *.d
