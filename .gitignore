@@ -1,5 +1,5 @@
-./HelperClass.h
-./HelperClass.cpp
+/HelperClass.h
+/HelperClass.cpp
 
 # Prerequisites
 *.d
