@@ -35,3 +35,4 @@ HelperClass.cpp
 *.exe
 *.out
 *.app
+cmake-build-debug/CMakeFiles/clion-Debug-log.txt
