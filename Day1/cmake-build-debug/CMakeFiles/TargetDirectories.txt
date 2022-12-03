@@ -1,3 +1,0 @@
-C:/Users/Casual/Programs/AdventOfCode/Day1/cmake-build-debug/CMakeFiles/AdventOfCode.dir
-C:/Users/Casual/Programs/AdventOfCode/Day1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Casual/Programs/AdventOfCode/Day1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
