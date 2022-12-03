@@ -1,3 +1,5 @@
+*.HelperClass.cpp
+
 # Prerequisites
 *.d
 

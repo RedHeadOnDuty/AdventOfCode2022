@@ -47,7 +47,7 @@ inline void Day2(){
 
         switch (your_hand) {
             case 'X':
-                
+
             case 'Y':
                 total_score += get_score(EVictory_score::Draw);
                 break;
