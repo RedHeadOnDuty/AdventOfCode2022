@@ -6,7 +6,9 @@
 #include "../HelperClass.h"
 
 inline int calculate_priority(char item){
-    return ((int)(item / 'a')? item - 'a' + 1 : item - 'A' + 26 + 1);
+    int temp = ((int)(item / 'a')? item - 'a' + 1 : item - 'A' + 26 + 1);
+    //std::cout << item << " -> " << temp << std::endl;
+    return temp;
 }
 
 inline int Day3_1()
@@ -34,16 +36,17 @@ inline int Day3_1()
                 if(set_1_item == set_2_item)
                 {
                     priority_total += calculate_priority(set_2_item);
-                    std::cout << set_2_item << " -> " << calculate_priority(set_2_item) << std::endl;
                 }
             }
         }
+        /*
         std::printf("\nhalf line size = %d, line.size() = %d \n", half_line_size, (int)line.size());
         std::printf("Original: %s\n", line.c_str());
         line_half_1[half_line_size] = '\0';
         line_half_2[half_line_size] = '\0';
         std::printf("first half(%d): %s \t second half(%d): %s\n",
                     (int)sizeof(line_half_2), line_half_1, (int)sizeof line_half_2, line_half_2);
+                    */
     }
     return priority_total;
 }
@@ -71,8 +74,6 @@ inline int Day3_2()
                         if(set_1_item == set_3_item)
                         {
                             priority_total += calculate_priority(set_2_item);
-                            std::cout << set_2_item << " -> " << calculate_priority(set_2_item) << std::endl;
-                            std::cout << set_2_item << " -> " << calculate_priority(set_2_item) << std::endl;
                         }
     }
     return priority_total;
